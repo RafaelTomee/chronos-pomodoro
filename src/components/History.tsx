@@ -1,8 +1,6 @@
-import { TimerIcon } from "lucide-react";
-import { Heading } from "./Heading";
+import { TimerIcon } from 'lucide-react';
+import { Heading } from './heading/Heading';
 
-import style from "./History.module.css";
+import style from './History.module.css';
 
-export function History() {
-    
-}
+export function History() {}
