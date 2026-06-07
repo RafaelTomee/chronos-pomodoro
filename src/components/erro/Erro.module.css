@@ -1,0 +1,15 @@
+.erro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.8rem;
+  gap: 1.5rem;
+}
+
+.erro p{
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 25rem;
+    padding-right: 25rem;
+}
