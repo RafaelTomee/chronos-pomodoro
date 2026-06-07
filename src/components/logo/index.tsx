@@ -4,9 +4,9 @@ import styles from './styles.module.css';
 export function Logo() {
   return (
     <div className={styles.logo}>
-      <a href="#" className={styles.logoLink}>
-        <TimerIcon  />
-        <h1>Chronos</h1>
+      <a className={styles.logoLink} href='#'>
+        <TimerIcon />
+        <span>Chronos</span>
       </a>
     </div>
   );

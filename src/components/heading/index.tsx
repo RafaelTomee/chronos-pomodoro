@@ -1,16 +1,9 @@
-import { Logo } from '../logo';
-import { Menu } from '../menu';
 import styles from './styles.module.css';
 
-// type HeadingProps = {
-//   children: React.ReactNode;
-// };
+type HeadingProps = {
+  children: React.ReactNode;
+};
 
-export function Heading() {
-  return (
-    <div className={styles.container}>
-      <Logo />
-      <Menu />
-    </div>
-  );
+export function Heading({ children }: HeadingProps) {
+  return <h1 className={styles.heading}>{children}</h1>;
 }

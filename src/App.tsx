@@ -1,22 +1,19 @@
+import { Logo } from './components/logo';
+import { Menu } from './components/menu';
+
 import './styles/theme.css';
 import './styles/global.css';
-
-import { Heading } from './components/heading';
-import { Home } from './components/home/Home';
-import { Footer } from './components/footer/Footer';
-import { Setting } from './components/setting/Setting';
-import { Erro } from './components/erro/Erro';
-import { History } from './components/history/History';
+import { Container } from './components/container';
 
 export function App() {
   return (
     <>
-      <Heading>Chronos</Heading>
-      <Home minutos={25} />
-      <Setting />
-      <Erro />
-      <History />
-      <Footer/>
+      <Container>
+        <Logo />
+      </Container>
+      <Container>
+        <Menu />
+      </Container>
     </>
   );
 }

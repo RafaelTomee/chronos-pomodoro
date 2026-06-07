@@ -1,36 +1,6 @@
-.container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  gap: 3rem;
-}
-
-.menu {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-}
-
-.iconButton {
-  width: 1.5rem;
-  height: 1.5rem;
-  color: var(--gray-900);
-}
-
-.Button {
+.heading {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.2rem;
-  height: 3rem;
-  background-color: var(--primary);
-  border-radius: 20%;
-  border: none;
-}
-
-.Button:hover {
-  background-color: var(--primary-dark);
-  cursor: pointer;
+  gap: 2.4rem;
 }

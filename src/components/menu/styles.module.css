@@ -1,29 +1,27 @@
 .menu {
-  display: inline-flex;
-  flex-direction: row;
-  gap: 1rem;
-}
-
-.menuLink {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.2rem;
-  height: 3rem;
-  background-color: var(--primary);
-  border-radius: 20%;
-  border: none;
-  transition: all 0.1s ease;
+  gap: 1.6rem;
+}
+
+.menuLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: var(--primary);
   color: var(--text-over-primary);
+  transition: all 0.1s ease-in-out;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+}
+
+.menuLink:hover {
+  filter: brightness(80%);
 }
 
 .menuLink svg {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-
-.Button:hover {
-  filter: brightness(80%);
-  cursor: pointer;
+  width: 2.4rem;
+  height: 2.4rem;
 }
