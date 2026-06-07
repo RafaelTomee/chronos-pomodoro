@@ -1,7 +1,7 @@
 import './styles/theme.css';
 import './styles/global.css';
 
-import { Heading } from './components/heading/Heading';
+import { Heading } from './components/heading';
 import { Home } from './components/home/Home';
 import { Footer } from './components/footer/Footer';
 import { Setting } from './components/setting/Setting';

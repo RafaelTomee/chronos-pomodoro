@@ -1,0 +1,23 @@
+.logo {
+  text-align: center;
+  gap: 0.5rem;
+  padding-top: 4rem;
+}
+
+.logoLink {
+  color: var(--primary);
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+
+.logoLink:hover {
+  color: var(--primary-dark);
+  cursor: pointer;
+}
+
+.logoLink svg {
+  width: 4rem;
+  height: 4rem;
+  color: var(--primary);
+}

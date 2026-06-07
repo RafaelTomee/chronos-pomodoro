@@ -1,17 +1,16 @@
-import styles from './Heading.module.css';
-import { HouseIcon, TimerIcon, History ,Settings, Sun} from 'lucide-react';
+import { Logo } from '../logo';
+import styles from './styles.module.css';
+import { HouseIcon, History ,Settings, Sun} from 'lucide-react';
 
-type HeadingProps = {
-  children: React.ReactNode;
-};
+// type HeadingProps = {
+//   children: React.ReactNode;
+// };
 
-export function Heading({ children }: HeadingProps) {
+export function Heading() {
   return (
-    <div>
-      <div className={styles.heading}>
-        <TimerIcon className={styles.icon} />
-        <h1>{children}</h1>
-      </div>
+    <div className={styles.container}>
+      <Logo />
+      
 
       
       <div className={styles.menu}>
