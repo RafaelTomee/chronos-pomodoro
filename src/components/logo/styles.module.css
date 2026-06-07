@@ -12,7 +12,7 @@
 }
 
 .logoLink:hover {
-  color: var(--primary-dark);
+  filter: brightness(80%);
   cursor: pointer;
 }
 

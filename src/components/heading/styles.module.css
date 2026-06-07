@@ -7,30 +7,6 @@
   gap: 3rem;
 }
 
-.heading {
-  text-align: center;
-  gap: 0.5rem;
-  padding-top: 4rem;
-  color: var(--primary);
-  font-size: 1.3rem;
-}
-
-.heading h1:hover {
-  color: var(--primary-dark);
-  cursor: pointer;
-}
-
-.icon {
-  width: 4rem;
-  height: 4rem;
-  color: var(--primary);
-}
-
-.icon:hover {
-  color: var(--primary-dark);
-  cursor: pointer;
-}
-
 .menu {
   display: flex;
   flex-direction: row;
