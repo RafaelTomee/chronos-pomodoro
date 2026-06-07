@@ -6,6 +6,7 @@ import { Home } from './components/home/Home';
 import { Footer } from './components/footer/Footer';
 import { Setting } from './components/setting/Setting';
 import { Erro } from './components/erro/Erro';
+import { History } from './components/history/History';
 
 export function App() {
   return (
@@ -14,6 +15,7 @@ export function App() {
       <Home minutos={25} />
       <Setting />
       <Erro />
+      <History />
       <Footer/>
     </>
   );
