@@ -19,6 +19,7 @@ export function Home({ minutos }: HomeProps) {
         <p>
           Neste ciclo <b>foque</b> por {minutos} <b>min.</b>
         </p>
+        <p>Ciclos:</p>
       </div>
       <button className={styles.playButton}>
         <CirclePlay className={styles.playButtonIcon} />
